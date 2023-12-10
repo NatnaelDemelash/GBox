@@ -7,7 +7,9 @@ const NavBar = () => {
     <HStack justifyContent="space-between" paddingY={5} paddingX={20}>
       <HStack>
         <Image src={logo} boxSize="40px" />
-        <Text>Game Box</Text>
+        <Text fontFamily="monospace" fontSize="25px">
+          Game Box
+        </Text>
       </HStack>
       <ColorModeSwitcher />
     </HStack>
