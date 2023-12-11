@@ -8,7 +8,7 @@ const NavBar = () => {
       <HStack>
         <Image src={logo} boxSize="40px" />
         <Text fontFamily="monospace" fontSize="25px">
-          Game Box
+          GameHub
         </Text>
       </HStack>
       <ColorModeSwitcher />
